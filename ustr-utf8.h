@@ -32,7 +32,7 @@ USTR_CONF_E_PROTO
 size_t ustr_utf8_bytes2chars(const struct Ustr *, size_t, size_t, size_t *)
     USTR__COMPILE_ATTR_WARN_UNUSED_RET() USTR__COMPILE_ATTR_NONNULL_L((1));
 
-USTR_CONF_E_PROTO
+USTR_CONF_EI_PROTO
 int ustrp_utf8_valid(const struct Ustrp *)
     USTR__COMPILE_ATTR_PURE() USTR__COMPILE_ATTR_WARN_UNUSED_RET()
     USTR__COMPILE_ATTR_NONNULL_A();
