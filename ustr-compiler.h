@@ -116,14 +116,14 @@
 # if USTR_CONF_INCLUDE_CODEONLY_HEADERS
 #  define USTR_CONF_EI_PROTO static USTR__INLINE
 # else
-#  define USTR_CONF_EI_PROTO extern
+#  define USTR_CONF_EI_PROTO static
 # endif
 #endif
 #ifndef USTR_CONF_II_PROTO /* implementation of inline */
 # if USTR_CONF_INCLUDE_CODEONLY_HEADERS
 #  define USTR_CONF_II_PROTO static USTR__INLINE
 # else
-#  define USTR_CONF_II_PROTO extern inline
+#  define USTR_CONF_II_PROTO static inline
 # endif
 #endif
 
